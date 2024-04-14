@@ -1,4 +1,4 @@
-*
+/*
  * Globals
  */
 
@@ -26,6 +26,26 @@ body {
 /*
  * Header
  */
+
+ .banner-wrap{
+    background-image: url(./assets/WhatsApp\ Image\ 2024-04-08\ at\ 05.43.56.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 10px solid #232323;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay{
+    z-index:-1;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+}
 
 
 .nav-masthead .nav-link {
