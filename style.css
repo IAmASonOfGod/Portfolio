@@ -66,3 +66,18 @@
   width: 330px;
   height: 186px;
 }
+
+#projects .card {
+  height: 100%;
+}
+
+#projects .card-img-top {
+  height: 190px;
+  object-fit: cover;
+}
+
+/* Headings <mark> style - match section background instead of default highlight */
+mark {
+  background-color: transparent;
+  padding: 0;
+}
