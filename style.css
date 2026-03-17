@@ -16,12 +16,22 @@
  */
 
 .banner-wrap {
-  background-image: url(./assets/BrownSuit.jpeg);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.banner-wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(./assets/developer_portfolio_1920x1080.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
-  z-index: 1;
+  filter: blur(3px);
+  transform: scale(1.05);
+  z-index: -2;
 }
 
 .overlay {
